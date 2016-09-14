@@ -1,3 +1,3 @@
 .noterep{ color: black; align:left;text-align: left; }
 .noterep1{ color: red; margin-top: 5px; align:left;text-align: left; }
-.noterep3{ color: red; font-weight: bold; font-size:16px; margin-bottom: 0px; align:left;text-align: left; }
+.noterep3{ color: red; font-weight: bold; font-size:16px; margin-bottom: 0px; align:left;text-align: left;}
