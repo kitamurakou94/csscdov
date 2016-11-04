@@ -33,7 +33,9 @@
   .kiyomibg17{
   margin: 0 auto;width: 100%;text-align: center;padding: 10px 0;font-size: 16px;color: #ABABAB;
   }
-  
+  .kiyomibg17 a {
+    color: #ABABAB!important;
+}
   
   
   .yunko11{
@@ -49,7 +51,7 @@
   background: #fbfbfc; padding: 36px 10px 36px 10px; border: 1px dashed #696969; box-shadow: 0 0 0 4px #d3d3d3, 2px 1px 6px 4px rgba(10, 10, 0, 0.5); float: left; min-width: 129px; color: #696969; text-align: center; font-size: 30px; font-weight: bold; text-transform: uppercase; font-family: courier new
   }
   .yunko15{
-  height: 80px; width: 100%; min-width: 700px; background: #3b3b3b; color: #FFF; text-align: center; font-size: 22px; padding: 10px; border-bottom: 5px solid #d3d3d3; ; font-family: courier new; font-weight: bold
+  height: 80px; width: 100%; min-width: 750px; background: #3b3b3b; color: #FFF; text-align: center; font-size: 22px; padding: 10px; border-bottom: 5px solid #d3d3d3; ; font-family: courier new; font-weight: bold
   }
   .yunko16{
     background: #fbfbfc;
@@ -244,7 +246,7 @@ text-align: center;
 }
   
   
-  .yunko01{ background: url(http://i.imgur.com/vnBtJHa.png) repeat center top; width: 100%; font-size: 60px; }
+.yunko01{ background: url(http://i.imgur.com/vnBtJHa.png) repeat center top; width: 100%; font-size: 60px; }
 .yunko02{ border-style: solid; border-width: 7px; border-color: #ffffff; border-radius: 50%; background: #696969;  height: 210px; width: 210px ;color: #ffffff; font-family: Broadway; text-transform: uppercase; }
 .yunko03{ width: 70%; font-family: Comic Sans MS; font-size: 40px; padding: 30px 20px; text-align: center; color: #696969 }
 .yunko04{ width: 70%; font-family: Comic Sans MS; font-size: 20px; padding: 10px 10px; text-align: justify; color: #696969 }
