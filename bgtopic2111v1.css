@@ -270,8 +270,8 @@ text-align: center;
 .kiyomi21112{max-width: 75%;width: 100%;background: rgba(255,255,255,0.9);border: 5px solid #4c6a92;border-radius: 120px 0 120px 0;padding:20px 20px 20px 20px;margin: 70px auto;box-shadow: 0 0 30px #0033cc;}
 .kiyomi21113{text-align: center;margin: 0 150px;background: #4c6a92;padding: 20px 10px 20px 20px;border-spacing: 0px;box-shadow: 0 0 30px #4c6a92;font: bold 45px Courier New;border-radius: 110px 0 0 0;color: #FFF;}
 .kiyomi21114{text-shadow: 0px 0px 15px #ffffff;padding: 10px 0;font-family: Georgia;color: #003366;font-size: 16px;line-height: normal;}
-.kiyomi21115{text-align: center;margin: 0 150px;background: #4c6a92;width: 200px;padding: 15px 0;border-spacing: 0px;box-shadow: 0 0 30px #4c6a92;font: bold 24px Courier New;border-radius: 0 0 110px 0;color: #FFF;}
-
+.kiyomi21115{text-align: center;margin: 0 150px;background: #4c6a92;width: 200px;padding: 15px 0;border-spacing: 0px;box-shadow: 0 0 30px #4c6a92;font: bold 18px Courier New;border-radius: 0 0 110px 0;color: #FFF;}
+.kiyomi21115 a{color: #FFF!important;}
 
 
 
