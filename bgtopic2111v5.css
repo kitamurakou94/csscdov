@@ -1,4 +1,25 @@
-﻿ .kiyomibg21{
+﻿.pun2 .main fieldset.calendar{margin:0;padding:0}
+.pun2 p.left-box{float:left}
+.pun2 p.right-box{float:right}
+* html p.left-box,* html p.right-box{position:relative}
+.pun2 .main p.left-box a,.pun2 .main p.right-box a{color:#dedfdf}
+* html .pun2 .main p.left-box a,* html .pun2 .main p.right-box a{height:1%}
+.pun2 .main table.calendar{border:none}
+.pun2 .main table.calendar thead th{background-color:#f4f4f4;font-weight:700;padding:.5em}
+.pun2 .main table.calendar td{border:1px solid #fff;overflow:hidden;padding:0}
+.pun2 .main table.calendar td.row2:hover{background-color:#f4f9fd}
+.pun2 .main table.calendar .row3{background-color:#f4f4f4;padding:.25em}
+table.calendar ul{height:10em;list-style-type:none}
+table.calendar ul li{margin:.25em}
+table.calendar p.right-event{padding:.25em;text-align:right}
+.overview.calendar .left-overview{padding:.25em}
+
+
+/* ------------------------------------ */
+
+
+
+.kiyomibg21{
   background: url(http://i.imgur.com/dQq0ChG.jpg) repeat;width: 100%;padding: 50px 0;
   }
   .kiyomibg22{
