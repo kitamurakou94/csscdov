@@ -42,15 +42,16 @@
 }
 
 .bg1 {
-  margin: 30px auto 0 auto;
-  background-color: #464646!important;
-  background: url(http://i.imgur.com/AMtUV3C.png) no-repeat top center, url(http://i.imgur.com/YTmOhwn.png) repeat;
-  box-shadow: 0px 0px 0px #000;
-  width: 100%;
-  max-width: 850px;
-  padding: 180px 20px 20px 20px;
-  font-size: 14px;
-  color: #FFF;
+    margin: 30px auto 0 auto;
+    background-color: #464646!important;
+    background: url(http://i.imgur.com/AMtUV3C.png) no-repeat top center, url(http://i.imgur.com/YTmOhwn.png) repeat;
+    box-shadow: 1px 1px 9px #000;
+    width: 100%;
+    max-width: 850px;
+    padding: 180px 20px 20px 20px;
+    font-size: 14px;
+    color: #FFF;
+    border: 9px solid #000;
 }
 
 .bgevent {
