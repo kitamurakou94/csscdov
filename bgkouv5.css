@@ -13,19 +13,22 @@
     margin-left: 0;
 }
   .td-classic-sharing ul {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 10px;
     height: 20px;
 }
  .td-post-sharing-bottom {
-border: 1px solid #ededed;
-    padding: 10px 26px;
+     background: #FFF;
+    border: 1px solid #DDD;
+    padding: 3px 0px 3px 10px;
     display: inline-block;
+    margin: 0 0 0 10px;
+    border-radius: 4px;
 }
   .td-post-share-title {
     font-weight: 700;
     font-size: 14px;
     position: relative;
-    margin-right: 20px;
+    margin-right: 10px;
     vertical-align: middle;
 }
   .td-default-sharing {
