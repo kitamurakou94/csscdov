@@ -1,3 +1,97 @@
+.td-social-sharing-buttons .td-social-facebook i, .td-post-sharing-bottom .td-social-sharing-buttons i{
+    color: #FFF!important;
+    font-size: 16px;
+    margin: 0!important;
+  }
+  .td-classic-sharing {
+    display: inline-block;
+    vertical-align: middle;
+}
+  .td-classic-sharing li {
+    display: inline-block;
+    height: 20px;
+    margin-left: 0;
+}
+  .td-classic-sharing ul {
+    margin: 0 0 0 30px;
+    height: 20px;
+}
+ .td-post-sharing-bottom {
+border: 1px solid #ededed;
+    padding: 10px 26px;
+    display: inline-block;
+}
+  .td-post-share-title {
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+  .td-default-sharing {
+    display: inline-block;
+    vertical-align: middle;
+}
+  .td-post-sharing-bottom .td-social-sharing-buttons {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    height: 19px;
+    min-width: 32px;
+    padding: 8px 9px 6px 9px;
+}
+
+.td-social-sharing-buttons:hover {
+    opacity: .8;
+}
+.td-post-sharing a {
+    display: inline-block;
+    vertical-align: middle;
+  color:#FFF;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.td-social-facebook {
+    background-color: #516eab;
+}
+  .td-social-twitter {
+    background-color: #29c5f6;
+}
+  .td-social-google {
+    background-color: #eb4026;
+}
+  .td-social-pinterest {
+    background-color: #ca212a;
+    margin-right: 0;
+}
+.td-social-sharing-buttons {
+    font-size: 11px;
+    color: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 10px 13px 8px 13px;
+    margin-right: 10px;
+    height: 40px;
+    min-width: 40px;
+    text-align: center;
+}
+  .td-post-sharing-bottom .td-social-but-text {
+    margin-left: 8px;
+    padding-left: 9px;
+}
+.td-social-facebook .td-social-but-text, .td-social-twitter .td-social-but-text {
+    border-left: 1px solid rgba(255, 255, 255, .1);
+}
+  .td-social-but-text {
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    line-height: 16px;
+    padding-left: 10px;
+    margin-left: 12px;
+}
 /* -----------------------------------------------------------*/
 .tdkou1 {
   padding: 10px;
