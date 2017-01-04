@@ -277,8 +277,23 @@ text-align: center;
 .yunko05{ border-style: double; border-color: #696969; border-width: 3px; border-radius: 40px; padding: 10px 20px; font-family: Courier New }
   
   
-.topickou1{background: #50922e url(http://i.imgur.com/Up6k8TF.jpg) repeat;width:100%;}
-.topickou2{margin: 50px auto;width: 100%;max-width: 800px;text-align: left;padding: 20px 30px;background-color: rgba(0,13,26,0.9);box-shadow: 0 0 10px #000d1a;}
+.topickou1{
+    background: #50922e url(http://i.imgur.com/Up6k8TF.jpg) repeat;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 900px;
+    padding: 42px;
+    border: 15px solid #fff;
+    box-shadow: 0px 0px 2px 1px #AAAAAA;
+}
+.topickou2{
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    padding: 20px 30px;
+    background-color: rgba(0,13,26,0.9);
+    box-shadow: 0 0 10px #000d1a;
+}
 .topickou3{font-size:45px;font-family: Verdana,Arial,Helvetica,sans-serif;color: #FFF;text-shadow: 0 0 10px #1e3c08, 0 0 10px #1e3c08, 0 0 10px #1e3c08, 0 0 10px #1e3c08;}
 .topickou4{background: #FFF;padding: 10px;}
 
