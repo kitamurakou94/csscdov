@@ -290,7 +290,7 @@ text-align: center;
     width: 100%;
     max-width: 800px;
     text-align: left;
-    padding: 20px 30px;
+    padding: 9px 30px 30px 30px;
     background-color: rgba(0,13,26,0.9);
     box-shadow: 0 0 10px #000d1a;
 }
