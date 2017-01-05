@@ -27,9 +27,15 @@ table.calendar p.right-event{padding:.25em;text-align:right}
   background: rgba(255, 224, 156, 0.41);padding: 10px;margin: 0px auto 20px auto;font-size: 28px;color: #ffe09c;text-shadow: 0 0 5px #000, 0 0 5px #000;width: 100%;text-align: center;
 }
 .koubg5117p4{
-  background: rgba(255, 224, 156, 0.41);padding: 10px;margin: 0px auto;width: 100%;max-width: 850px;
+  background: rgba(255, 224, 156, 0.41);padding: 10px;margin: 0px auto;width: 100%;
 }
-
+.koubg5117p5 {
+    background: rgba(255, 224, 156, 0.41);
+    padding: 10px;
+    margin: 20px auto 0 auto;
+    width: 100%;
+    text-align: center;
+}
 .kiyomibg21{
   background: url(http://i.imgur.com/dQq0ChG.jpg) repeat;width: 100%;padding: 50px 0;
   }
