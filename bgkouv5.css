@@ -85,7 +85,7 @@ a:active, a:hover {
     padding-left: 9px;
 }
 .td-social-facebook .td-social-but-text, .td-social-twitter .td-social-but-text {
-    border-left: 1px solid rgba(255, 255, 255, .1);
+    border-left: 1px solid rgba(255, 255, 255, 0.45);
 }
   .td-social-but-text {
     display: inline-block;
