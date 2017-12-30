@@ -17,14 +17,16 @@
     height: 20px;
 }
  .td-post-sharing-bottom {
-     background: #FFF;
-    border: 1px solid #DDD;
+     background: #1a1a21;
+    border: 1px solid #1a1a21;
+    border-bottom: 2px solid #1a1a21;
     padding: 3px 0px 3px 10px;
     display: inline-block;
     margin: 0 0 0 10px;
     border-radius: 4px;
 }
   .td-post-share-title {
+    color: #FFF;
     font-weight: 700;
     font-size: 14px;
     position: relative;
