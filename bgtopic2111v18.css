@@ -27,10 +27,11 @@ table.calendar p.right-event{padding:.25em;text-align:right}
   background: rgba(255, 224, 156, 0.41);padding: 10px;margin: 0px auto 20px auto;font-size: 28px;color: #ffe09c;text-shadow: 0 0 5px #000, 0 0 5px #000;width: 100%;text-align: center;
 }
 .koubg5117p4{
-  background: rgba(255, 224, 156, 0.41);padding: 10px;margin: 0px auto;width: 100%;
+  background: rgba(255, 224, 156, 0.41);color: #000;padding: 10px;margin: 0px auto;width: 100%;
 }
 .koubg5117p5 {
     background: rgba(255, 224, 156, 0.41);
+  color: #000;
     padding: 10px;
     margin: 20px auto 0 auto;
     width: 100%;
@@ -43,7 +44,7 @@ table.calendar p.right-event{padding:.25em;text-align:right}
   margin: 0 auto;width: 100%;max-width: 900px;background: url(http://i.imgur.com/7808HiI.png) no-repeat 7% 65%, url(http://i.imgur.com/eHXZV4z.jpg) no-repeat 50% 50%;height: 370px;background-color: rgba(255, 255, 255, 0.85);
   }
   .kiyomibg23{
-  margin: 0px auto 0 auto;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.91);box-shadow: 0 0 0px #000;border-top: 8px solid #bf0c08;border-bottom: 8px solid #bf0c08;padding: 10px;font-size: 16px;
+  margin: 0px auto 0 auto;color: #bf0c08;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.91);box-shadow: 0 0 0px #000;border-top: 8px solid #bf0c08;border-bottom: 8px solid #bf0c08;padding: 10px;font-size: 16px;
   }
   .kiyomibg24{
   margin: 0 auto;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.91);text-align: center;padding: 10px 0;font-size: 16px;color: #ABABAB;
@@ -66,7 +67,7 @@ table.calendar p.right-event{padding:.25em;text-align:right}
   height: 80px;width: 100%;min-width:700px;background: #3b3b3b;color: #FFF;text-align: center;font-size: 22px;padding:10px;border-bottom: 5px solid #3a98e2;
   } 
   .kiyomibg16{
-  background: #e6f4ff;margin: 50px auto 0 auto;width: 100%;border-top: 8px solid #3a98e2;border-bottom: 8px solid #3a98e2;padding: 10px;font-size: 14px;
+  background: #e6f4ff;color: #000;margin: 50px auto 0 auto;width: 100%;border-top: 8px solid #3a98e2;border-bottom: 8px solid #3a98e2;padding: 10px;font-size: 14px;
   } 
   .kiyomibg17{
   margin: 0 auto;width: 100%;text-align: center;padding: 10px 0;font-size: 16px;color: #ABABAB;
@@ -116,7 +117,7 @@ background: url(http://i.imgur.com/UiSE3Iz.gif) repeat; width: 100%; padding: 50
 margin: 0 auto;width: 100%;max-width: 900px;background: url(http://i.imgur.com/MohWi1d.png) no-repeat 75% 50%, url(http://i.imgur.com/aSFZkqe.jpg) no-repeat 50% 50%;height: 300px;background-color: rgba(255, 255, 255, 0.85);
 }
 .nekobg03{
-margin: -6px auto 0 auto;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.85);box-shadow: 0 0 0px #000;border-top: 8px solid #dc1a4d;border-bottom: 8px solid #dc1a4d;padding: 10px;font-size: 16px;
+margin: -6px auto 0 auto;color:#dc1a4d;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.85);box-shadow: 0 0 0px #000;border-top: 8px solid #dc1a4d;border-bottom: 8px solid #dc1a4d;padding: 10px;font-size: 16px;
 }
 .nekobg04{
 margin: 0 auto;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.85);text-align: center;padding: 10px 0;font-size: 16px;color: #ABABAB;
@@ -130,7 +131,7 @@ background: url(http://i.imgur.com/DhCxX8r.jpg) repeat; width: 100%; padding: 50
 margin: 0 auto;width: 100%;max-width: 900px;background: url(http://i.imgur.com/2dpRXOT.png) no-repeat 50% 50%, url(http://i.imgur.com/JeiY3A5.jpg) no-repeat 50% 50%;height: 300px;background-color: rgba(255, 255, 255, 0.85);
 }
 .bgamthuc3{
-margin: -6px auto 0 auto;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.85);box-shadow: 0 0 0px #000;border-top: 8px solid #df5018;border-bottom: 8px solid #df5018;padding: 10px;font-size: 16px;
+margin: -6px auto 0 auto;color: #df5018;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.85);box-shadow: 0 0 0px #000;border-top: 8px solid #df5018;border-bottom: 8px solid #df5018;padding: 10px;font-size: 16px;
 }
 .bgamthuc4{
 margin: 0 auto;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.85);text-align: center;padding: 10px 0;font-size: 16px;color: #ABABAB;
@@ -149,6 +150,7 @@ margin: 0 auto;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.85
 }
 .kayawa3{
     background: #ffffff;
+    color: #f5a8b9;
     width: 890px;
     font-family: Comic Sans MS;
     font-size: 16px;
@@ -161,13 +163,19 @@ margin: 0 auto;width: 100%;max-width: 900px;background: rgba(255, 255, 255, 0.85
     font-size: 32px;
     font-style: bold;
 }
+table.kayawa4 {
+    width: 100%;
+    text-align: center;
+    color: #f5a8b9;
+}
 .kayawa5{
   background: #FCDBE4; height:3px; width: 100%; color:FCDBE4;
 }
 
   
   
-   .kiyomibg1{ margin: 0 auto; width:100%; } .kiyomibg2{ background: url(http://i.imgur.com/FksovIJ.jpg) repeat;background-size:50%; text-align: justify; padding: 80px 0px; width:100%; } .kiyomibg3{ background: #A5BDAE; border: 3px #FFFFFF dashed; padding: 30px; font-size: 15px; margin: 0 auto; } .kiyomibg4{ background: #FFFFFF; border: 3px #A5BDAE dashed; padding: 30px 0; font-size: 54px;width: 100%; max-width: 900px; margin: 0 auto;     text-align: center; color: #7F8A83;     font-family: Georgia; } .kiyomibg5{ background: #FFFFFF url(http://i.imgur.com/EXxiEZ5.jpg) repeat; border: 3px #A5BDAE dashed; padding: 30px; font-size: 15px;width:100%; max-width: 900px; margin: 33px auto; } 
+   .kiyomibg1{ margin: 0 auto; width:100%; } .kiyomibg2{ background: url(http://i.imgur.com/FksovIJ.jpg) repeat;background-size:50%; text-align: justify; padding: 80px 0px; width:100%; } .kiyomibg3{ background: #A5BDAE; border: 3px #FFFFFF dashed; padding: 30px; font-size: 15px; margin: 0 auto; } .kiyomibg4{ background: #FFFFFF; border: 3px #A5BDAE dashed; padding: 30px 0; font-size: 54px;width: 100%; max-width: 900px; margin: 0 auto;     text-align: center; color: #7F8A83;     font-family: Georgia; } 
+.kiyomibg5{ background: #FFFFFF url(http://i.imgur.com/EXxiEZ5.jpg) repeat;color: #000; border: 3px #A5BDAE dashed; padding: 30px; font-size: 15px;width:100%; max-width: 900px; margin: 33px auto; } 
 .kiyomibg6{ background: #FFFFFF; border: 3px #A5BDAE dashed; padding: 18px 0;width: 100%; max-width: 900px; margin: 0 auto; 
   text-align:center;color:#7F8A83; font-family:Georgia;
   font-size:18px;
@@ -244,10 +252,14 @@ text-align: center;
     max-width: 900px;
     margin: 33px auto;
 }
+.nekobg5{
+      color: #fd7373;
+}
 .nekobg6 a{color: #FD7373; }
 .nenla5 {
   border: 3px #5A8F00 dashed;
       border-radius: 45px 0 45px 0;
+    color: #5A8F00!important;
 }
 .nenla6 {
       border: 3px #5A8F00 dashed!important;
@@ -312,7 +324,7 @@ text-align: center;
     box-shadow: 0 0 10px #000d1a;
 }
 .topickou3{font-size:45px;font-family: Verdana,Arial,Helvetica,sans-serif;color: #FFF;text-shadow: 0 0 10px #1e3c08, 0 0 10px #1e3c08, 0 0 10px #1e3c08, 0 0 10px #1e3c08;}
-.topickou4{background: #FFF;padding: 10px;}
+.topickou4{background: #FFF;padding: 10px;color: #000000;}
 
 
 .yunko21{background: #f2f2f2;font-family: segoe ui;text-align: justify;width: 100%;line-height: 2;border-left: 20px solid #ff9999;color: #696969;font-size: 14px;}
