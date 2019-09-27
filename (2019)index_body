@@ -1,0 +1,639 @@
+<style>
+  
+  .mdkou {
+  background: url(https://i.imgur.com/63AddDe.png) repeat 50% 0%;
+  background-size: auto 100%;
+    height: auto;
+    padding: 50px 0;
+}
+  .mdkou1{
+    background-color: #5a8f00;
+  }
+  .mdkou11{
+    background-color: #3cb881;
+  }
+  .mdkou12{
+    background-color: #000;
+  }
+  .mdkou2 {
+    width: 200px;
+    margin: 0px auto;
+    text-align: center;
+}
+  .mdkou2 img {
+    height: 72px;
+    width: 72px;
+    margin: 10px auto 0px auto;
+    border: 3px solid #FFF;
+    border-radius: 100%;
+}
+  .mdkou3 {
+    background: url(https://i.imgur.com/EcrxoqV.png) no-repeat 50% 50%;
+    height: 5px;
+    margin: 5px auto;
+}
+  .mdkou4 {
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 0 0 5px #000;
+    font-size: 15px;
+    margin: 5px auto 10px 0;
+}
+  
+  .mdkou5 {
+    color: #FFF;
+    border: 2px solid #FFF;
+    padding: 5px 0;
+    width: 81px;
+    margin: 0 auto;
+}
+  .mdkou5:hover {
+    color: #000;
+  background: #FFF;
+}
+  
+  
+ 
+  .texxt{
+  background-color: rgba(0, 0, 0, 0.47);
+  height: 250px;
+  width: 260px;
+  }
+  .texxt:hover{
+  background-color: rgba(24, 125, 4, 0.47);
+  }
+  .texxt1{
+    font-size: 29px;
+    color: #FFF;
+    text-align: center;
+    padding: 83px 0 0px 0;
+    font-family: cursive;
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+      .sidebar {
+    background: #1a1a21;
+    border: 1px solid #1a1a21;
+    border-radius: 5px;
+    padding: 10px;
+    width: auto!important;
+}
+  .sidebar .titside {
+    border-bottom: 2px solid #D7D7D7;
+    height: 22px;
+    margin-bottom: 10px;
+}
+  .sidebar .titside h3 {
+    border-bottom: 2px solid #5a8f00;
+    color: #5a8f00;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    height: 22px;
+}
+   
+  
+  
+  
+  
+/* Latest topics */
+#content-container div#container{float:none}
+#content-container div#main{margin-bottom:0}
+*+ html #content-container div#main{margin-left:0;margin-right:0}
+#content-container div#left{float:none;width:100%}
+#left{margin:0px 0 30px 0}
+#left,#left *,#left li:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#left a{text-decoration:none}
+#left td{width:25%;vertical-align:top;border-width:0 1px}
+#left .double{border-left:0;width:50%}
+#left li {
+position: relative;
+width: 98%;
+height: 23px;
+list-style-type: none;
+padding: 2px 0;
+border-bottom: 1px dashed #505050;
+counter-increment: Zzindex;
+}
+#left li:before{content:counter(Zzindex);display:block;height:16px;background:#98D0FF;position:absolute;left:-23px;font-size:11px;top:5px;border-radius:2px;text-align:center;width:18px;color:#FFF;line-height:16px}
+#left li:after{content:" ";background:#98D0FF;display:block;width:6px;height:6px;position:absolute;top:10px;left:-8px;transform:rotate(45deg);-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg)}
+#left li:nth-child(1):before,#left li:nth-child(1):after{background:red}
+#left li:nth-child(2):before,#left li:nth-child(2):after{background:#d47a2a}
+#left li:nth-child(3):before,#left li:nth-child(3):after{background:#b9ba45}
+#left li:nth-child(4):before,#left li:nth-child(4):after{background:#aad655}
+#left li:nth-child(5):before,#left li:nth-child(5):after{background:#55e7aa}
+#left a{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;display:block;width:60%;height:inherit}
+#active_topics a,#viewed_topics a{width:70%}
+#left #recent_topics a{width:100%}
+#left .lastRight{right:0;text-align:right;position:absolute;top:3px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;left:auto}
+#left ul,#left th{padding-left:24px;padding-right:10px;margin:0}
+#left ul{ /* height: 114px; */ }
+#left .changeLast {
+    border: 0 none!important;
+    background: inherit;
+    margin-top: 0!important;
+    margin-bottom: 0px;
+    padding: 0!important;
+    width: 153px;
+}
+#left .changeLast, #left th h2 {
+color: #5a8f00;
+font-weight: bold;
+}
+#left th{width:25%;vertical-align:middle}
+th.topicLast {
+padding: 5px 0 1px 0;
+}
+th.double{text-align:left;}
+#recent_topics li{margin: 0}
+#left #recent_topics .lastRight{width:20%!important}
+.half li:nth-child(6),.half li:nth-child(7),.half li:nth-child(8),.half li:nth-child(9),.half li:nth-child(10),#active_starters,#users_month{display:none}
+.pun2 table.table {
+   table-layout: fixed;
+}
+#top_posters, #users_month, #users_week, #viewed_topics, #active_topics, #active_starters{
+width:105%;
+}
+
+/* Tooltip */
+#tooltip{background-color:#FFF;border:2px solid #333;color:#131313;max-width:550px;padding:10px}
+
+
+
+/* anhdepmoingay */
+.addk{
+background: #FFEAE0;
+  padding: 5px 10px 5px 10px;
+  }
+  .linee{
+  height: 50px; width:3px; border-right:1px solid #80808b; 
+  }
+  .linen{
+  height: 2px; width:230px; border-top:1px dotted #80808b; margin: 7px 0 7px 0;
+  }
+  .notte a{
+  color: #80808B; font-size:15px; font-weight:bold;
+  }
+  .notte1 a{
+  color: #80808B; font-size:16px; font-weight:bold;
+  }
+#notte{
+  margin-left:10px; 
+}
+  .immg img{height:60px; width:60px; border: 3px double #80808b;}
+
+
+
+  
+  .topload1 .main-content {border-left:0!important;border-right:0!important;border-bottom:0!important;background:none!important;}
+
+
+/*----------font thongke------------------*/
+.songuoi, .sobai, .mamoi, #chitiet09 {display:inline}
+.songuoi strong{color:deepSkyBlue;font-family:georgia;text-decoration:none;font-style:normal;font-weight:normal;font-size:38px;line-height: 38px;}
+.sobai strong{color:yellowGreen;font-family:georgia;text-decoration:none;font-style:normal;font-weight:normal;font-size:38px;line-height: 38px;}
+.mamoi strong{font-family:georgia;text-decoration:none;font-style:normal;font-weight:normal;font-size:20px}
+#chitiet09 strong{font-family:georgia;text-decoration:none;font-style:normal;font-weight:normal;font-size:18px;color:red;}
+
+
+
+.cmhot {
+  background: #FFF;
+  margin: 10px 0;
+  border-radius: 3px!important;
+  padding: 20px 10px;
+  color: #F85500;
+  font-size: 24px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  box-shadow: 0 1px 3px 0 #b5b5b5;
+  -moz-box-shadow: 0 1px 3px 0 #b5b5b5;
+  -webkit-box-shadow: 0 1px 3px 0 #b5b5b5;
+  border: 1px solid #DDD;
+  border-left: 5px solid #F85500;
+}
+
+.cmhot:hover {
+background: #F85500;
+color: #FFF;
+}  
+
+
+.picc1 {
+  border: 2px solid #ebebeb;
+  padding: 2px;
+  width: 59px!important;
+  height: 59px!important;
+}
+
+
+
+.chemgio a{ background: 0; border: 1px dashed #FFF; color: #FFF; padding: 10px; width: 122px; margin: 0 5px 0 0px; text-align: center; }
+.chemgio a:hover{ background: #FFF; border: 1px solid #FFF; color: #262626; }
+.chemgio a.newsup{ background: #FF0000; color: #fff; border: 0;}
+
+.tkbv1{
+margin-left: 10px!important;
+    color: #fff!important;
+    text-shadow: 0 0 0px!important;
+    font-size: 21px;
+}
+  
+  
+  .ifbutton {
+    border: 2px solid #5a8f00;
+    margin: 0 0 5px 0;
+    padding: 5px;
+    font-weight: bold;
+    color: #5a8f00;
+}
+  
+  .ifbutton:hover {
+    background: #5a8f00;
+    color: #FFF;
+}
+  </style>
+
+
+<div class="paging12121"><i class="fa fa-exclamation-circle mautb" aria-hidden="true"></i>Diễn đàn chỉ hỗ trợ cho trình duyệt <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank"><u style="color: #5a8f00;">Google Chrome <i class="fa fa-download"></i></u></a> và <a href="https://coccoc.com/" target="_blank"><u style="color: #5a8f00;">Cốc Cốc <i class="fa fa-download"></i></u></a> phiên bản mới nhất.</div>
+
+<div id="{ID_LEFT}" class="tkbv2 main">
+   <div class="tkbv">
+      <div class="page-title" style="margin-left: 10px!important;">
+         <h2 class="tkbv1">Thống kê bài viết</h2>
+      </div>
+   </div>  
+   <div class="main-content" style="background: #1a1a21!important; border-radius: 0 0 5px 5px;padding: 0px!important;">
+      <table cellspacing="0" class="table prefixx" style="background: 0!important; padding: 0px 10px 5px 10px!important;">
+         <tbody class="statused">
+                                <!-- BEGIN giefmod_index1 -->
+                                {giefmod_index1.MODVAR}
+                                <!-- END giefmod_index1 -->
+         </tbody>
+      </table>
+        </div>
+        <script type="text/javascript">
+                //<![CDATA[
+                var versionMinor = parseFloat(navigator.appVersion),
+                        versionMajor = parseInt(versionMinor),
+                        IE = document.all && !window.opera && 7 > versionMajor,
+                        IE7 = document.all && !window.opera && 7 <= versionMajor,
+                        OP = window.opera,
+                        FF = document.getElementById,
+                        NS = document.layers;
+                
+                function get_item(a, c) {
+                        if (IE) return c ? window.opener.document.all[a] : document.all[a];
+                        if (FF) return c ? window.opener.document.getElementById(a) : document.getElementById(a);
+                        if (NS) return c ? window.opener.document.layers[a] : document.layers[a]
+                }
+                
+                var current_tooltip;
+                
+                function show_tooltip(a, c) {
+                        var b = get_item("tooltip");
+                        b || (b = document.createElement("div"), b.setAttribute("id", "tooltip"), document.body.appendChild(b));
+                        b.style.zIndex = 1000;
+                        b.style.position = "absolute";
+                        b.innerHTML = "<p>" + c + "</p>";
+                        b.style.visibility = "visible";
+                        a.onmousemove = move_tooltip;
+                        a.onmouseout = function () {
+                                b.style.visibility = "hidden"
+                        };
+                        a.title = ""
+                }
+                var offsetxpoint = -60,
+                        offsetypoint = 20,
+                        real_body = document.compatMode && "BackCompat" != document.compatMode ? document.documentElement : document.body,
+                        real_body = document.documentElement ? document.documentElement : document.body;
+                
+                function move_tooltip(a) {
+                        var c = !IE ? a.pageX : event.clientX + real_body.scrollLeft,
+                                d = !IE ? a.pageY : event.clientY + real_body.scrollTop,
+                                b = IE && !window.opera ? real_body.clientWidth - event.clientX - offsetxpoint : window.innerWidth - a.clientX - offsetxpoint - 20,
+                                e = IE && !window.opera ? real_body.clientHeight - event.clientY - offsetypoint : window.innerHeight - a.clientY - offsetypoint - 20,
+                                f = 0 > offsetxpoint ? -1 * offsetxpoint : -1E3;
+                        current_tooltip = get_item("tooltip");
+                        current_tooltip.style.left = b < current_tooltip.offsetWidth ? IE ? real_body.scrollLeft + event.clientX - current_tooltip.offsetWidth + "px" : window.pageXOffset + a.clientX - current_tooltip.offsetWidth + "px" : c < f ? "5px" : c + offsetxpoint + "px";
+                        current_tooltip.style.top = e < current_tooltip.offsetHeight ? IE ? real_body.scrollTop + event.clientY - current_tooltip.offsetHeight - offsetypoint + "px" : window.pageYOffset + a.clientY - current_tooltip.offsetHeight - offsetypoint + "px" : d + offsetypoint + "px"
+                }
+                $("#recent_topics li a:first-child").mouseover(function () {  
+                        show_tooltip(this, $(this).next().html())
+                });
+                $("#active_topics a, #viewed_topics a").mouseover(function () {
+                        show_tooltip(this, $(this).prev().text().replace(/(.*)\s-\s\d+.+/, "$1"));
+                }).after(function () {
+                        return '<span class="lastRight">' + this.title.replace(/.*\s-\s(\d+.+)/, "$1") + '</span>'
+                });
+                $(".changeLast").change(function(){
+                        $(".half.group_" + $(this).data("group")).hide();
+                        $("#" + this.value).show();
+                });
+                //]]>
+        </script>  
+</div>
+
+   <script type="text/javascript">
+
+$(function(){
+    $('.half .lastRight').each(function(){$(this).text($(this).text().split(' - ')[0])})
+});
+
+ </script>  
+
+<div class="qtan">
+<!-- BEGIN message_admin_index -->
+
+
+	<!-- BEGIN message_admin_txt -->
+
+		<p>{message_admin_index.message_admin_txt.MES_TXT}</p>
+	
+	<!-- END message_admin_txt -->
+
+<!-- END message_admin_index -->
+
+</div>
+
+
+
+
+{JAVASCRIPT}
+
+
+
+
+
+
+
+ <table><tr><td class="bodykhungtrai" valign="top">{BOARD_INDEX}</td>
+
+<td valign="top"><div style="width: 10px;"></div></td>
+
+<td class="bodykhungphai" valign="top">
+<div style="width:260px;margin: 0;">
+
+
+<!-- BEGIN switch_user_logged_in --> 
+  <div class="tieude11" style="text-align:left;"><h2 style="margin-left: 10px!important;">Thông tin</h2></div><br />
+
+
+
+<table class="infobox1"><tr><td>
+<center>
+  
+  <div class="avamem1"></div>
+<script>//<![CDATA[$(".avamem11").html(_userdata.avatar);//]]></script>
+<script type="text/javascript">//<![CDATA[$(".avamem1").replaceWith('<a class="avamem1" href="/u' + _userdata.user_id + 'wall" rel="nofollow">' + _userdata.avatar + '</a>');//]]></script>
+</center>
+</td>
+<td><div style="text-align:left;"><div style="margin-left:5px;">
+<span class="infobox">Tên:</span><span class="namemem"></span>
+<script>//<![CDATA[$(".namemem").html(_userdata.username);//]]></script><br />
+
+<span class="infobox">Thành viên thứ:</span><span class="sttmem"></span>
+<script>//<![CDATA[$(".sttmem").html(_userdata.user_id);//]]></script><br />
+
+<span class="infobox">Số bài viết:</span><span class="sobaimem"></span>
+<script>//<![CDATA[$(".sobaimem").html(_userdata.user_posts);//]]></script><br />
+
+<span class="infobox">Số tin nhắn:</span><span class="inbox"></span>
+<script>//<![CDATA[$(".inbox").html(_userdata.user_nb_privmsg);//]]></script><br />
+
+<span class="infobox">Điểm tích lũy:</span><span class="soyenmem"></span>
+<script>//<![CDATA[$(".soyenmem").html(_userdata.point_reputation);//]]></script></div></div>
+
+</td>
+  
+<tr>  
+  <td colspan="2">
+    <a href="/profile?mode=editprofile&page_profil=informations"><div class="ifbutton">Sửa thông tin cá nhân</div></a>
+    <a href="/profile?mode=editprofile&page_profil=preferences"><div class="ifbutton">Sửa quyền riêng tư</div></a>
+    <a href="/profile?mode=editprofile&page_profil=signature"><div class="ifbutton">Sửa chữ ký</div></a>
+    <a href="/profile?mode=editprofile&page_profil=avatars"><div class="ifbutton">Sửa ảnh đại diện</div></a>
+  </td></tr>
+  </tr></table>
+  <br /><br />
+
+
+<!-- END switch_user_logged_in -->
+  
+  
+  
+  
+<div class="tieude11" style="text-align:left;"><h2 style="margin-left: 10px!important;">Tiêu điểm</h2></div>
+  <br />
+<a id="ramatlamquen" href="t16910-animejapan-2016-news-animejapan-2016-p-3-su-gop-mat-cua-nhung-studio-ten-tuoi-va-thong-tin-ve-nhung-du-an-anime-sap-ra-mat"><img src="https://i.imgur.com/RDV7fTO.jpg" /></a>
+<br /><br />
+
+<a id="fes" href="f88-cosplay-festival-event-news"><img src="https://i.imgur.com/hu2OlWy.jpg" /></a>
+  
+  
+<br /><br />
+  
+<div class="tieude11" style="text-align:left;"><h2 style="margin-left: 10px!important;">Box mới</h2></div>
+<br />
+<a href="f49-neko-cafe">
+<img src="https://i.imgur.com/Or60QTp.png" />
+</a>
+  
+  
+  
+
+  
+  
+<br /><br />
+  
+  
+  
+  
+  
+<div class="tieude11 moduletruot1" style="text-align:left;"><h2 style="margin-left: 10px!important;">Hội nhóm</h2></div>
+<br />
+  
+   <div class="moduletruot">
+  
+     
+     
+     
+    
+      
+      <div class="mdkou mdkou1">
+        <div class="mdkou2">
+          <img src="https://i.imgur.com/e59G5aw.png" style="background: #5a8f00;" />
+          <div class="mdkou3">
+          </div>
+          <div class="mdkou4">
+            Fanpage Facebook
+          </div>
+          <a href="https://www.facebook.com/CongDongOtakuViet" target="_blank">
+          <div class="mdkou5">
+            Tham gia
+          </div>
+     </a>
+        </div>
+      </div>
+     
+     <br />
+  
+     
+     
+     <div class="mdkou mdkou11">
+        <div class="mdkou2">
+          <img src="https://i.imgur.com/Mx72RZw.png" />
+          <div class="mdkou3">
+          </div>
+          <div class="mdkou4">
+            RPG Maker VX ACE 
+          </div>
+          <a href="t8183-game-offline-rpg-maker-vx-ace" target="_blank"> 
+      <div class="mdkou5">
+            Tham gia
+          </div>
+     </a>
+        </div>
+      </div>
+  
+    
+  
+     <br />
+  
+  
+  
+     <div class="mdkou mdkou12">
+        <div class="mdkou2">
+          <img src="https://i.imgur.com/sDRkcoe.jpg" />
+          <div class="mdkou3">
+          </div>
+          <div class="mdkou4">
+            Creepypasta FC
+          </div>
+          <a href="t12697-daily-updates-creepypasta-nhung-cau-chuyen-kinh-hoang" target="_blank"> 
+      <div class="mdkou5">
+            Tham gia
+          </div>
+     </a>
+        </div>
+      </div>
+  
+   
+
+  
+  </div>
+
+
+
+
+
+</div>
+</td>
+
+</tr></table>
+
+
+
+
+
+
+
+  <br />
+
+
+
+
+<!-- BEGIN disable_viewonline -->
+
+  
+        <div class="sidebar sidebar2">
+  <div class="titside">
+    <h3>
+      Thống kê
+    </h3>
+  </div>
+  <div class="forumstatistics">
+
+    
+    
+    
+    
+<div class="nenbox" style="padding: 0px!important; overflow: hidden;">
+<div name="/* background: url(https://i.imgur.com/ffZRcyG.png)  no-repeat 33px 50%; background-size: 70px; border-radius: 5px; */ padding: 0 10px 0 10px;">
+  
+	<div name="width: 87%;margin-left:145px;border-left: 1px solid #D0425D;">
+		<div style="border-bottom: 1px dashed #5f5f5f;padding-bottom: 0px;margin-bottom: 0px;margin-left: 10px;">
+                  <p class="right" style="float: right; margin-top: -10px;"><br /><font color="red" size="3" class="sobai"><b>{TOTAL_POSTS}</b></font></p>
+			<p><div class="songuoi"><font color="red" size="3"><b>{TOTAL_USERS}</b></font></div></p>
+			<p><br /><div class="mamoi" style="color: #FFF;">{NEWEST_USER}</div>
+
+                          <br />
+<div class="vview2"><font color="#FFF" size="3px"><b>» Tổng lượt view:</b></font></div>
+
+
+                          <br />
+
+<div style="width:100%;height:2px;margin-bottom:2px; margin-top: -7px;"></div>
+</p>
+		</div>
+		<div style="margin-left: 10px;">
+			
+			
+
+
+<div id="chitiet09" class="label" style="color: #FFF;">{TOTAL_USERS_ONLINE}</div>
+                  
+                  
+                  
+                  
+                        <br /> 
+
+
+
+
+			
+                  <div class="label" style="color: #FFF;">
+                    {RECORD_USERS}
+                  </div>
+                  
+                  <div class="label1" style="color: #FFF; display:none;">
+                          {LOGGED_IN_USER_LISTT}
+                  </div>
+			
+                  <div style="color: #FFF;width: 100%; max-width:100%; display:none;">
+                    {L_ONLINE_USERSS}
+                  </div>
+			
+                  <div class="tongmem" style="color: #FFF; border-top: 1px dashed #5f5f5f; padding-top: 5px;margin-top: 5px;">
+                    {L_CONNECTED_MEMBERS}, 
+                    <a href="/u1214"><span style="color:#3C3B42"><strong>vanille</strong></span></a>, <a href="/u1216"><span style="color:#3C3B42"><strong>redrangers</strong></span></a>, <a href="/u1221"><span style="color:#050404"><strong>scarletofmagic</strong></span></a>, <a href="/u1232"><span style="color:#050404"><strong>hailuadichat</strong></span></a>, <a href="/u1234"><span style="color:#3C3B42"><strong>kaitokid1412</strong></span></a>, <a href="/u1237"><span style="color:#3C3B42"><strong>boy9xfunny2209</strong></span></a>, <a href="/u1238"><span style="color:#050404"><strong>masticaterob</strong></span></a>, <a href="/u2"><span style="color:#0055FF"><strong>Shimoon</strong></span></a>, <a href="/u3"><span style="color:#050404"><strong>Kitashi Motoroko</strong></span></a>, <a href="/u4"><span style="color:#0055FF"><strong>Kitoshan</strong></span></a>, <a href="/10"><span style="color:#3C3B42"><strong>Shinichi Kudo</strong></span></a>, <a href="/u13"><span style="color:#3C3B42"><strong>Hatogaya Kuromi</strong></span></a>, <a href="/u6"><span style="color:#050404"><strong>sensei</strong></span></a>, <a href="/u7"><span style="color:#0055FF"><strong>Ariko-chan</strong></span></a>, <a href="/u14"><span style="color:#3C3B42"><strong>Len Koutarou</strong></span></a>, <a href="/u12"><span style="color:#0055FF"><strong>Kenny Su</strong></span></a>, <a href="/u5"><span style="color:#0055FF"><strong>supermon</strong></span></a>, <a href="/u16"><span style="color:#050404"><strong>npsuperman</strong></span></a>, <a href="/u17"><span style="color:#3C3B42"><strong>Isaac Clarke</strong></span></a>, <a href="/u1934"><span style="color:#050404"><strong>Black_R0ck_Sho</strong></span></a>, <a href="/u15"><span style="color:#3C3B42"><strong>kakaallstars</strong></span></a>, <a href="/u18"><span style="color:#0055FF"><strong>Ciel Morling</strong></span></a>, <a href="/u19"><span style="color:#050404"><strong>vampire_knight</strong></span></a>, <a href="/u21"><span style="color:#050404"><strong>hamano_yuuka</strong></span></a>, <a href="/u22"><span style="color:#3C3B42"><strong>shinku_jun123</strong></span></a>, <a href="/u1260"><span style="color:#3C3B42"><strong>Julie Makimoto</strong></span></a>, <a href="/u1261"><span style="color:#3C3B42"><strong>Amasaka Takashi</strong></span></a>, <a href="/u1302"><span style="color:#3C3B42"><strong>Shukuma Haruki</strong></span></a>, <a href="/u8"><span style="color:#0055FF"><strong>Hatoriko</strong></span></a>, <a href="/u1303"><span style="color:#3C3B42"><strong>quangkt190265</strong></span></a>, <a href="/1304"><span style="color:#050404"><strong>Uchiha Sayurio</strong></span></a>, <a href="/u1305"><span style="color:#3C3B42"><strong>Shidoyachi-kun</strong></span></a>, <a href="/u9"><span style="color:#0055FF"><strong>Kaito † hell</strong></span></a>, <a href="/u1307"><span style="color:#3C3B42"><strong>Sayornara</strong></span></a>, <a href="/u1308"><span style="color:#3C3B42"><strong>Yoshina Ichimi</strong></span></a>, <a href="/u1309"><span style="color:#050404"><strong>Shinigami98</strong></span></a>, <a href="/u1935"><span style="color:#050404"><strong>candy_love0701</strong></span></a>, <a href="/u1914"><span style="color:#050404"><strong>nhoxur_cute</strong></span></a>, <a href="/u716"><span style="color:#050404"><strong>mikimeo123</strong></span></a>, <a href="/u267"><span style="color:#050404"><strong>Blue Night</strong></span></a>, <a href="/u711"><span style="color:#050404"><strong>vancguacsrock</strong></span></a>, <a href="/u285"><span style="color:#0055FF"><strong>nhuquynh0216</strong></span></a>, <a href="/u222"><span style="color:#0055FF"><strong>p3_ngoc_miuzi</strong></span></a>, <a href="/u218"><span style="color:#050404"><strong>khoa1256</strong></span></a>, <a href="/u287"><span style="color:#3C3B42"><strong>la_la_fly_1999</strong></span></a>, <a href="/u99"><span style="color:#3C3B42"><strong>kagachan7000</strong></span></a>, <a href="/u101"><span style="color:#050404"><strong>mr.bairongyue</strong></span></a>, <a href="/u91"><span style="color:#3C3B42"><strong>nhim060998</strong></span></a>, <a href="/u77"><span style="color:#0055FF"><strong>Kami_sweet</strong></span></a>, <a href="/u71"><span style="color:#3C3B42"><strong>vipkiy01280</strong></span></a>, <a href="/u55"><span style="color:#3C3B42"><strong>inoriyuzuriha</strong></span></a>, <a href="/u52"><span style="color:#3C3B42"><strong>MiuMiu_99</strong></span></a>, <a href="/u45"><span style="color:#3C3B42"><strong>sakura5369</strong></span></a>, <a href="/u36"><span style="color:#3C3B42"><strong>babykute923</strong></span></a>, <a href="/u44"><span style="color:#050404"><strong>XHimeXChiyoX</strong></span></a>, <a href="/u33"><span style="color:#3C3B42"><strong>saruko</strong></span></a>
+                    , 
+                    <a href="/u872"><span style="color:#3C3B42"><strong>yumi_1996</strong></span></a>, <a href="/u23"><span style="color:#050404"><strong>Drafanasa</strong></span></a>, <a href="/u126"><span style="color:#0055FF"><strong>Máu</strong></span></a>, <a href="/u410"><span style="color:#3C3B42"><strong>kagaminerin004</strong></span></a>, <a href="/u1275"><span style="color:#3C3B42"><strong>Sakura Hunter</strong></span></a>, <a href="/u1262"><span style="color:#3C3B42"><strong>Nanashi_muteki</strong></span></a>, <a href="/u1890"><span style="color:#3C3B42"><strong>binpancake</strong></span></a>, <a href="/u1878"><span style="color:#3C3B42"><strong>Suzulovemikuha</strong></span></a>, <a href="/u1870"><span style="color:#3C3B42"><strong>AoiTori1996</strong></span></a>, <a href="/u1848"><span style="color:#3C3B42"><strong>nhokluvmeocon7</strong></span></a>, <a href="/u36"><span style="color:#050404"><strong>babykute923</strong></span></a>, <a href="/u27"><span style="color:#050404"><strong>Hakido shishi</strong></span></a>, <a href="/u43"><span style="color:#3C3B42"><strong>Yuhi_Blood</strong></span></a>, <a href="/u44"><span style="color:#3C3B42"><strong>XHimeXChiyoX</strong></span></a>, <a href="/u98"><span style="color:#0055FF"><strong>OoYuzuoO</strong></span></a>, <a href="/u94"><span style="color:#3C3B42"><strong>vampire1997vn</strong></span></a>, <a href="/u83"><span style="color:#050404"><strong>Suna_MGK</strong></span></a>, <a href="/u"><span style="color:#3C3B42"><strong></strong></span></a>, <a href="/u107"><span style="color:#0055FF"><strong>Cáo Cứng Cổ</strong></span></a>, <a href="/u104"><span style="color:#3C3B42"><strong>Táo Cavallone</strong></span></a>, <a href="/u103"><span style="color:#050404"><strong>haidang26</strong></span></a>, <a href="/u161"><span style="color:#050404"><strong>kYoNe hOtArU</strong></span></a>, <a href="/u178"><span style="color:#050404"><strong>linh_airi_love_s9</strong></span></a>, <a href="/u174"><span style="color:#3C3B42"><strong>Yume x Sora no Tsumi</strong></span></a>, <a href="/u173"><span style="color:#3C3B42"><strong>SH_Okagawa_Natsu</strong></span></a>, <a href="/u196"><span style="color:#050404"><strong>~Nyan~</strong></span></a>, <a href="/u208"><span style="color:#3C3B42"><strong>okagawanatsu</strong></span></a>, <a href="/u252"><span style="color:#0055FF"><strong>Akatsumi Tori</strong></span></a>, <a href="/u248"><span style="color:#3C3B42"><strong>NakagawaAshita</strong></span></a>, <a href="/u279"><span style="color:#050404"><strong>duchuy1261998</strong></span></a>, <a href="/u299"><span style="color:#3C3B42"><strong>trần hồ kiều oanh</strong></span></a>, <a href="/u306"><span style="color:#3C3B42"><strong>peiumanga_3110</strong></span></a>, <a href="/u327"><span style="color:#3C3B42"><strong>qu0cthangprovip95</strong></span></a>, <a href="/u347"><span style="color:#0055FF"><strong>FurukawaNagisa</strong></span></a>, <a href="/u381"><span style="color:#0055FF"><strong>moonskyn</strong></span></a>, <a href="/u437"><span style="color:#3C3B42"><strong>ly_syaoran_kun</strong></span></a>, <a href="/u511"><span style="color:#3C3B42"><strong>hoaanhdao_1995</strong></span></a>, <a href="/u389"><span style="color:#0055FF"><strong>xxxkonzumyxxx</strong></span></a>, <a href="/u542"><span style="color:#3C3B42"><strong>thommaxjohnson</strong></span></a>, <a href="/u612"><span style="color:#3C3B42"><strong>gamethutheky</strong></span></a>, <a href="/u621"><span style="color:#050404"><strong>==IamOtaku==</strong></span></a>, <a href="/u269"><span style="color:#3C3B42"><strong>boivyvy</strong></span></a></div>
+                        
+
+			<div style="font:12px Arial; color: #FFF; border-top: 1px dashed #5f5f5f; padding-top: 10px;margin-top: 10px;">
+                          <b>Nhóm:</b> {GROUP_LEGEND}
+                          </div>
+
+		</div>
+
+	</div>
+</div></div>
+    
+    
+    </div>
+</div>
+<!-- END disable_viewonline -->
+
+
+
+
+
+
+
+{AUTO_DST}
+
+
+
+
+<div class="rimuqc"></div>
