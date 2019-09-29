@@ -1,0 +1,435 @@
+</div></div>
+
+
+
+
+
+
+<span style="float:right">
+	<div id="right" style="display:inline-block;padding-top: 15px;" class="topload1 blogpt">
+		
+          
+          <!-- BEGIN switch_user_logged_in --> 
+  <div class="tieude11" style="text-align:left;"><h2 style="margin-left: 10px!important;">Thông tin</h2></div><br />
+
+
+
+<table class="infobox1"><tr><td>
+<center>
+  
+  <div class="avamem1"></div>
+<script>//<![CDATA[$(".avamem11").html(_userdata.avatar);//]]></script>
+<script type="text/javascript">//<![CDATA[$(".avamem1").replaceWith('<a class="avamem1" href="/u' + _userdata.user_id + 'wall" rel="nofollow">' + _userdata.avatar + '</a>');//]]></script>
+</center>
+</td>
+<td><div style="text-align:left;"><div style="margin-left:5px;">
+<span class="infobox">Tên:</span><span class="namemem"></span>
+<script>//<![CDATA[$(".namemem").html(_userdata.username);//]]></script><br />
+
+<span class="infobox">Thành viên thứ:</span><span class="sttmem"></span>
+<script>//<![CDATA[$(".sttmem").html(_userdata.user_id);//]]></script><br />
+
+<span class="infobox">Số bài viết:</span><span class="sobaimem"></span>
+<script>//<![CDATA[$(".sobaimem").html(_userdata.user_posts);//]]></script><br />
+
+<span class="infobox">Số tin nhắn:</span><span class="inbox"></span>
+<script>//<![CDATA[$(".inbox").html(_userdata.user_nb_privmsg);//]]></script><br />
+
+<span class="infobox">Điểm tích lũy:</span><span class="soyenmem"></span>
+<script>//<![CDATA[$(".soyenmem").html(_userdata.point_reputation);//]]></script></div></div>
+
+</td>
+  
+<tr>  
+  <td colspan="2">
+    <a href="/profile?mode=editprofile&page_profil=informations"><div class="ifbutton">Sửa thông tin cá nhân</div></a>
+    <a href="/profile?mode=editprofile&page_profil=preferences"><div class="ifbutton">Sửa quyền riêng tư</div></a>
+    <a href="/profile?mode=editprofile&page_profil=signature"><div class="ifbutton">Sửa chữ ký</div></a>
+    <a href="/profile?mode=editprofile&page_profil=avatars"><div class="ifbutton">Sửa ảnh đại diện</div></a>
+  </td></tr>
+  </tr></table>
+  <br /><br />
+
+
+<!-- END switch_user_logged_in -->
+  
+  
+  
+  
+<div class="tieude11" style="text-align:left;"><h2 style="margin-left: 10px!important;">Tiêu điểm</h2></div>
+  <br />
+<a id="ramatlamquen" href="t16910-animejapan-2016-news-animejapan-2016-p-3-su-gop-mat-cua-nhung-studio-ten-tuoi-va-thong-tin-ve-nhung-du-an-anime-sap-ra-mat"><img src="https://i.imgur.com/RDV7fTO.jpg" /></a>
+<br /><br />
+
+<a id="fes" href="f88-cosplay-festival-event-news"><img src="https://i.imgur.com/hu2OlWy.jpg" /></a>
+  
+  
+<br /><br />
+  
+<div class="tieude11" style="text-align:left;"><h2 style="margin-left: 10px!important;">Box mới</h2></div>
+<br />
+<a href="f49-neko-cafe">
+<img src="https://i.imgur.com/Or60QTp.png" />
+</a>
+  
+  
+  
+
+  
+  
+<br /><br />
+  
+  
+  
+  
+  
+<div class="tieude11 moduletruot1" style="text-align:left;"><h2 style="margin-left: 10px!important;">Hội nhóm</h2></div>
+<br />
+  
+   <div class="moduletruot">
+  
+     
+     
+     
+    
+      
+      <div class="mdkou mdkou1">
+        <div class="mdkou2">
+          <img src="https://i.imgur.com/e59G5aw.png" style="background: #5a8f00;" />
+          <div class="mdkou3">
+          </div>
+          <div class="mdkou4">
+            Fanpage Facebook
+          </div>
+          <a href="https://www.facebook.com/CongDongOtakuViet" target="_blank">
+          <div class="mdkou5">
+            Tham gia
+          </div>
+     </a>
+        </div>
+      </div>
+     
+     <br />
+  
+     
+     
+     <div class="mdkou mdkou11">
+        <div class="mdkou2">
+          <img src="https://i.imgur.com/Mx72RZw.png" />
+          <div class="mdkou3">
+          </div>
+          <div class="mdkou4">
+            RPG Maker VX ACE 
+          </div>
+          <a href="t8183-game-offline-rpg-maker-vx-ace" target="_blank"> 
+      <div class="mdkou5">
+            Tham gia
+          </div>
+     </a>
+        </div>
+      </div>
+  
+    
+  
+     <br />
+  
+  
+  
+     <div class="mdkou mdkou12">
+        <div class="mdkou2">
+          <img src="https://i.imgur.com/sDRkcoe.jpg" />
+          <div class="mdkou3">
+          </div>
+          <div class="mdkou4">
+            Creepypasta FC
+          </div>
+          <a href="t12697-daily-updates-creepypasta-nhung-cau-chuyen-kinh-hoang" target="_blank"> 
+      <div class="mdkou5">
+            Tham gia
+          </div>
+     </a>
+        </div>
+      </div>
+  
+   
+
+  
+  </div>
+          
+          
+          
+						</div>
+					</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></div>
+
+<style>
+
+
+
+/*-----------------------------footer-----------------*/
+
+
+.footer .choosers dt{display:none}
+.footerLegal {
+margin-top: 0px;
+/* border: 8px solid #A80094; */
+padding: 5px 0;
+border-bottom: 0;
+border-radius: 8px 8px 0 0;
+height: auto;
+width: 100%;
+min-width: 1050px;
+}
+.footerLegal .pageContent{font-size:11px;overflow:hidden;zoom:1;height:15px;text-align:center;padding:5px 0 15px;}
+.footer a, .footer a:visited {
+color: #FFF;
+font-weight: bold;
+display: block;
+padding: 5px 30px;
+}
+.footer .choosers{background-color:#00ACE9;margin-top:5px; margin-right:7px;float:left;overflow:hidden;zoom:1; padding: 3px 10px 3px 10px;}
+.footer .choosers dd{float:left;}
+.footerLinks{background-color:#888;margin-top:4px;margin-left:8px;float:right;overflow:hidden;zoom:1;min-height:26px;padding: 3px 10px 3px 10px;}
+.cyan-link-left{width:152px;height:160px;padding-right:20px;text-align:right;float:left;border-right:#616161 dotted 1px;margin:0}
+.cyan-link-right{line-height:22px;width:752px;height:150px;float:left;padding-left:30px;padding-top:10px;border-left:#2f2f2f dotted 1px}
+.pageWidth { width: 100%;margin: 0 auto;height:auto; border: 0; }
+#fot1 {
+background: 0!important;
+height: auto;
+border-top: 1px dashed #FFF!important;
+border-bottom: 0!important;
+padding: 10px 0px;
+min-width: 1050px;
+width: 100%;
+}
+.col-link{float:left;width:33%}
+.ft1{border-radius: 5px 5px 5px 5px;}
+.ft2 img{ background: #fff; width: 130px; height: 130px; float: right; margin-right: 150px; margin-top:-90px; border-radius: 160px; border: 6px double #0073A0; padding: 20px; }
+
+.copyright{background: #424242;}
+.cyan_textlink{
+ height: auto; background: #ededed; border-bottom: 1px solid #666666;border-top: 1px solid #666666;padding: 10px 15px; 
+}
+
+.chemgio div {
+margin: 12px 0 10px 0;
+float: left;
+}
+  .chemgio {
+    display: inline-block;
+    margin-top: 3px;
+}
+.chemgio2{
+padding: 5px 8px!important;
+}
+
+
+.text00{
+    float: right;
+    text-align: right;
+    margin-bottom: 8px;
+    margin-top: 9px;
+    width: 100%;
+}
+</style>
+
+<br />
+
+    <center><div class="footer1"><div class="footer"><div class="pageWidth"><div class="pageContent">
+
+<center><div class="ft1">
+<dl class="choosers" style="background: #EF3F36;"><a href="/h55-phong-trien-lam-tranh-cua-cdov" target="_blank" class="OverlayTrigger Tooltip" rel="nofollow">Triển lãm tranh</a></dl>
+<div class="footerLinks" style="background: #9500FF;"><a href="#top">Top ↑</a></div>
+<div class="footerLinks" style="background: #FF8400;"><a href="/f3-forum">Thông Báo</a></div>
+<div class="footerLinks" style="background: #00B7FF;"><a href="/h10-page">Liên Hệ</a></div>
+<div class="footerLinks" style="background: #5a8f00; display:none;"><a href="/index.forum?mobile&redirect=%2F" onmouseover="show_tooltip(this, 'Chỉ hiệu lực khi bạn đang dùng smartphone');">Mobile Version</a></div>
+</div></center>
+
+</div></div></div>
+
+
+<div class="footerLegal"><div class="pageWidth"><div class="pageContent"><span class="helper"></span></div></div></div><div class="cyan_textlink" id="fot1"><div class="pageWidth">
+
+
+
+
+<center>
+
+<table class="klik">
+  <tr>
+          <td valign="top" class="liiil">
+            <div class="lik">• ANIME</div>
+            <div class="liki">
+              <div class="lizi"><a href="/search?search_keywords=One+Punch+Man">One-Punch Man</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Ansastu+Kyoshitsu">Ansastu Kyoshitsu</a></div>
+              <div class="lizi"><a href="/search?search_keywords=The+Last%3A+Naruto+the+Movie">Naruto Movie</a></div>
+              <div class="lizi"><a href="/search?search_keywords=One+Piece">One Piece Movie</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Sword+Art+Online">Sword Art Online</a></div>
+            </div>
+          </td>
+        
+          
+          
+          <td valign="top" class="liiil">
+            <div class="lik">• MANGA</div>
+            <div class="liki">
+              <div class="lizi"><a href="/search?search_keywords=Shingeki+no+Kyojin">Shingeki no Kyojin</a></div>
+              <div class="lizi"><a href="/search?search_keywords=NISEKOI">NISEKOI</a></div>
+              <div class="lizi"><a href="/search?search_keywords=World+Trigger">World Trigger</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Hunter+x+Hunter">Hunter x Hunter</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Kuroko+no+Basuke">Kuroko no Basuke</a></div>
+            </div>
+          </td>
+        
+          
+          
+          <td valign="top" class="liiil">
+            <div class="lik">• GAME</div>
+            <div class="liki">
+              <div class="lizi"><a href="/search?search_keywords=kancolle">Kancolle</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Pokemon+go">Pokémon GO</a></div>
+              <div class="lizi"><a href="/search?search_keywords=The+Evil+Within">The Evil Within</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Monster+Hunter">Monster Hunter</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Final+Fantasy">Final Fantasy</a></div>
+            </div>
+          </td>
+        
+          
+          
+          <td valign="top" class="liiil">
+            <div class="lik">• VOCALOID</div>
+            <div class="liki">
+              <div class="lizi"><a href="/search?search_keywords=Miku+Racing">Miku Racing</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Miku+Expo">Miku Expo</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Halloween">Halloween Miku</a></div>
+              <div class="lizi"><a href="/search?search_keywords=snow">Miku Snow</a></div>
+              <div class="lizi"><a href="/search?search_keywords=miku">Hatsune Miku</a></div>
+            </div>
+          </td>
+        
+          
+          
+          <td valign="top" class="liiil">
+            <div class="lik">• Ranking</div>
+            <div class="liki">
+              <div class="lizi"><a href="/search?search_keywords=Charapedia">Charapedia Ranking</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Newtype">Newtype Ranking</a></div>
+              <div class="lizi"><a href="/search?search_keywords=website+GOO">GOO Ranking</a></div>
+              <div class="lizi"><a href="/search?search_keywords=bxh+nhạc">Music Ranking</a></div>
+              <div class="lizi"><a href="/search?search_keywords=top+nhân+vật">Character Ranking</a></div>
+            </div>
+          </td>
+        
+          
+          
+          <td valign="top" class="liiil">
+            <div class="lik">• HOT</div>
+            <div class="liki">
+              <div class="lizi"><a href="/t9134-news-nhung-cap-nhat-moi-ve-chien-dich-truy-quet-cac-website-upload-manga-anime-trai-phep-cua-chinh-phu-nhat-ban">Manga-Anime Guardians</a></div>
+              <div class="lizi"><a href="/search?search_keywords=Studio+Ghibli">Studio Ghibli</a></div>
+              <div class="lizi"><a onclick="javascript:alert('Đang cập nhật')">Updating...</a></div>
+              <div class="lizi"><a onclick="javascript:alert('Đang cập nhật')">Updating...</a></div>
+              <div class="lizi"><a onclick="javascript:alert('Đang cập nhật')">Updating...</a></div>
+            </div>
+          </td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+<table width="100%" style="margin-top: 10px;margin-bottom:-10px; border: 0!important;" class="nnm">
+  <tr>
+    <td width="100%" align="top">
+
+      <div class="ft2" style="float:left; margin:0px 0 0 20px; font-weight: bold; color: #fff;display:none;">
+        <b></b>
+      </div>
+
+
+      <div align="left">
+        <center>
+          <table style="margin-bottom: 0px;width: 100%;">
+            
+              <tr>
+                <td class="kokzo" style="width: 310px;" valign="top"><div class="kou12">Popular</div>
+<div class="chemgio">
+<div><a class="chemgio2" href="/t13302-news-update-tin-van-moi-ngay">News Update</a></div>
+<div><a class="chemgio2" href="/t12395-preview-spoil-noi-dom-truoc-ngo-trom-va-tra-chanh-chem-gio-cac-tap-anime-sap-len-song" class="pvup">Preview</a></div>
+<div><a class="chemgio2" href="/t12444-daily-updates-hom-nay-co-gi-hot">Hôm nay có gì hot?</a></div>
+<div><a class="chemgio2" href="/search?search_keywords=meme" class="meme1">MEME</a></div>
+<div><a class="chemgio2" href="/t12525-daily-updates-hoi-phat-cuong-vi-su-moe-cua-cac-be-loli">Loli</a></div>
+<div><a class="chemgio2" href="/t12445-daily-updates-maid-glasses-is-the-best">Maid - Glasses</a></div>
+<div><a class="chemgio2" href="/t12741-goc-thao-luan-phong-trao-ao-len-kin-co-ho-nguc-dung-de-nhung-canh-cua-thien-dang-dong-lai">Turtleneck Meme</a></div>
+<div><a class="chemgio2" href="/t12697-daily-updates-creepypasta-nhu-ng-cau-chuye-n-kinh-hoa-ng">Creepypasta</a></div>
+<div><a class="chemgio2" href="/t13541-daily-updates-kantai-collection-fc-ho-i-nhung-nguoi-yeu-thich-tau-chien-moe">Kancolle</a></div>
+<div><a class="chemgio2" href="/t16146-daily-updates-qua-tang-am-nhac">Music</a></div>
+<div><a class="chemgio2" href="/t1271-thao-luan-tim-manga-theo-yeu-cau">Tìm manga</a></div>
+<div><a class="chemgio2" href="/f76-anh-tong-hop">Ảnh</a></div>
+<div><a class="chemgio2" href="/f101-video-tong-hop">Video</a></div>
+<div><a class="chemgio2" href="/f93-fall-2016" style="border: 1px dashed #a0ff00;color: #a0ff00;">Anime Fall 2016</a></div>
+<div><a class="chemgio2" href="t17697-tra-chanh-chem-gio-noi-thao-luan-giao-luu-chem-gio">Trà chanh chém gió</a></div>
+                  </div></td>
+                <td class="kokzo" style="width: 40%;" valign="top">
+                  <div class="kou10" style="width: 85%;">
+                    <div class="kou12">Credit</div>
+                    <div class="kou11"><div>
+                      <div class="text01">• <b>©</b> wWw.CongDongOtakuViet.Com</div>
+                      <div class="text01">• <b>Skin:</b> ONiW (Winter 2017 ~ Ver 1.6)</div>
+                      <div class="text01">• <b>Design by:</b> Kou</div>
+                      <div class="text01">• Diễn đàn được phát triển bởi BQT và các thành viên.</div>
+                      <div class="text01">• BQT sẽ không chịu trách nhiệm với các bài viết do thành viên đăng tải.</div>
+                      <div class="text01">• <b>© Vui lòng ghi rõ nguồn khi lấy nội dung đi nơi khác.</b></div>
+                      <div class="text01">• <b>© Không rip skin dưới mọi hình thức.</b></div>
+
+                      </div>
+                    </div>
+                  </div>
+                </td>
+  
+
+                <td class="kokzo" style="width: 29%;" valign="top" style="">
+                  <div class="kou10">
+                    <div class="kou12">Note</div>
+                    <div class="kou11" style="font-size:12.9px;text-align: justify;padding-right: 0;">
+                      • Tất cả các series anime, ảnh và nội dung trên CDOV được tổng hợp từ nhiều nguồn trên internet và do thành viên cung cấp. Vì vậy, chúng tôi không có liên hệ và thông tin chính xác nhất về nội dung đó. Nếu có yêu cầu từ một bên thứ 3 có trách nhiệm liên quan, nội dung đó sẽ được gỡ bỏ ngay sau khi xem xét.
+                    </div>
+                  </div>
+                </td>
+              </tr>
+             
+              
+            
+   
+          </table>
+
+
+</center>
+
+
+
+
+
+  <center><div class="rimuqcc"></div><div class="lili">
+
+
+       
