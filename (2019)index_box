@@ -1,0 +1,315 @@
+<style>
+#indexBox .status img{width:22px;height:22px;position:absolute;z-index:10}
+#pun-legend img,.thumbnail{width:45px;height:45px}
+.thumbnail{background:transparent}
+.pun .main table.table td{
+      line-height: 20px;
+    background: #FFF;
+    border-color: #23232d;
+    border-style: solid;
+    border-width: 1px 0 0;
+  }
+.pun table.table tr:first-child td{border-top:0}
+.pun table.table td.tcl{overflow:visible;border-left:0;}
+.pun table .tcr{width:25%}
+
+
+.stat4r {
+    color: #888;
+    font-size: 12px;
+    padding-right: 3px;
+    text-shadow: 0 0 #000!important;
+}
+.topic4r {
+    margin-left: 10px;
+}
+.iconbox a {
+    color: #5a8f00;
+}
+
+.stat4r > strong {
+    color: #eff0f5;
+}
+.sub4r.stat4r{position:relative}
+.subLink{padding:0!important;position:absolute;display:none;left:0;list-style:none;background:#FFF;top:15px;z-index:30;min-width:97px;border:2px solid #666}
+.sub4r.stat4r:hover .subLink{display:block}
+.stat4r .subLink + strong{padding-right:15px;background:url(https://i.servimg.com/u/f56/18/59/49/93/arrow_10.png) no-repeat right center transparent}
+.subLink li a{white-space:nowrap;height:20px;line-height:20px;display:block;padding:0 7px}
+.subLink li a:hover{background:#f2f2f2}
+#indexBox .desc{font-style:italic}
+#indexBox .tcr a[href=""]:after{color:#888;content:"Không có bài viết";font-style:italic}
+.statusAva{float:left;height:50px;margin:-5px 5px}
+#indexBox .statusAva{margin:5px}
+.pun table.table tr:hover td,#pun-info dd:hover{background-color:#F5F5F5!important}
+.pun #left table.table tr:hover td{background-color:#FFF!important}
+#indexBox tr:hover a.forumtitle{color:red}
+#indexBox tr:hover .tcl strong{color:#359BED}
+#indexBox tr:hover .desc img,#pun-info dd:hover .imgleft{transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg)}
+.pun table .tcr > span.stat4r{display:block;}
+.faq{padding:0}
+.faq dd{border:1px solid #DDD;position:relative;background:#FFF;margin:15px 0 5px;padding:10px 10px 0}
+.faq > dd:before{content:'';display:inline-block;border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:10px solid #CCC;position:absolute;right:10px;width:10px;left:10px;top:-10px}
+.faq > dd:after{content:'';display:inline-block;border-right:9px solid transparent;border-left:9px solid transparent;border-bottom:9px solid #fff;position:absolute;right:11px;left:11px;width:9px;top:-9px}
+#pun-info .ddleft{background:transparent;min-height:55px;padding:5px 0 5px 55px}
+#pun-info .dttitle{font-weight:600;height:26px;line-height:25px;border-bottom:1px solid #f2f2f2}
+#pun-info .dttitle,#pun-info .dttitle a{color:#999}
+#pun-info .imgleft{margin-top:0}
+#legend{border-top:1px solid #F3F3F3;line-height:20px;height:84px;padding:10px 0}
+#legend b{display:block;width:25%;float:left;padding:0 10px}
+#legend b:before{content:"[ "}
+#legend b:after{content:" ]"}
+.kkk1 img{  height:70px; width: 70px; }
+
+
+.kkk1 img{
+  background: #fff;float: left;
+  width: 60px;height: 60px;
+  padding: 1px; border: 1px solid #DDD;margin: 0 10px 0 0;
+  -webkit-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.75);
+transition:all .2s;-webkit-transition:all .2s;border-radius: 40px;
+}
+
+.kkk img:hover{
+transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg); box-shadow: 0px 0px 0px #ff0000;
+}
+
+
+.tieude11 b, .h2, h2, h1, .main .main-head .page-title{
+  margin-left: 45px; color: #A80094;font-style:normal;font-weight:normal;font-size:26px;font-weight:400;
+}
+ 
+
+
+
+.koio{background:0;}
+
+
+.titboxx a{
+ font-family: Times New Roman;
+font-size: 25px!important;
+text-shadow: 0px 0px 6px rgb(119, 0, 255), 0px 0px 5px rgb(119, 0, 255), 0px 0px 5px rgb(119, 0, 255)!important;
+color: #fff;
+font-weight:bold;
+}
+
+
+.logoxoay:hover .homeicon, .logoxoay:hover .avatar9x img{
+-webkit-transform:rotate(360deg) scale(1);
+transform:rotate(360deg) scale(1);
+}
+
+.logoxoay .homeicon, .logoxoay .avatar9x img{
+transition: all .3s;
+-webkit-transition: all .3s;
+}
+/*----------------------------INDEX BOX------------------------------*/
+
+
+
+/*-icon index_box-------*/
+.titbox{
+  font-size: 16px;color: #008eee;border-radius: 2px;vertical-align: top;
+	display: inline-block;box-shadow: 0 0px 0px rgba(0,0,0,0.2);height: auto; width: auto; padding: 5px 10px 5px 10px;
+  border-left: 0px solid #009DFF; margin-bottom:3px; margin-left: 20px;
+}
+.titbox:before{
+	content: "";position: absolute;width: 5px; height: auto;background: #008eee;
+}
+
+
+/*-------------------- cot phai trong indexbox---------------------------*/
+
+#menutop{width:100%;height:74px;background:#ffffff}#menutop ul{list-style:none;line-height:74px}#menutop ul li{float:left;color:#8d8d8d;font-size:12px;margin-right:13px}#menutop ul li a:link,#menutop ul li a:visited{font-weight:normal;color:#010101;text-decoration:none}#menutop ul li a:hover,#menutop ul li a:active{color:#F60;text-decoration:none}
+
+</style>
+
+
+
+<div style="width: 100%;">
+
+
+
+<!-- BEGIN catrow -->
+
+  
+  
+  
+  
+<div class="logoxoay">
+
+
+
+  <!-- BEGIN tablehead -->
+
+
+
+<div class="homeicon"></div>
+
+<div class="tieude11 koio" style="margin-left: 0px;"><div style="margin-left: 30px;">{catrow.tablehead.L_FORUM}</div></div>
+
+ 
+
+          
+          
+  <!-- END tablehead -->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- BEGIN forumrow -->
+  
+  
+  
+  
+       <table cellspacing="0" class="nenbox logoxoay" style="width: 100%;">
+              
+         
+         <tr><td colspan="2"><div class="bline"></div></td></tr>
+         
+         <tr>   
+
+ 
+                   
+        <td style="width: 70%;padding-top:10px;">
+              
+
+      
+          
+          
+          
+          <table><tr><td width="5%" valign="top"><div class="kkk"></div></td>
+
+<td width="100%">
+          <h3 class="hierarchy">
+
+
+
+<div class="titbox titboxx">
+  <a id="{catrow.forumrow.U_VIEWFORUM}" class="forumtitle">
+          • {catrow.forumrow.FORUM_NAME} • <span class="topic4r stat4r">[ Chủ đề: <strong>{catrow.forumrow.TOPICS}</strong></span> <span class="post4r stat4r">/</span> <span class="post4r stat4r">Bài viết: <strong>{catrow.forumrow.POSTS}</strong> ]</span>
+  </a>
+            </div>
+
+
+</h3>
+         
+         
+           
+        
+
+  <div class="eazy-avatar1">	
+          
+ 
+    
+       <div style="float:left; width: 100%;">   {catrow.forumrow.FORUM_DESC}
+			
+			<strong>{forumrow.L_SUBFORUM_STR}</strong>{forumrow.SUBFORUMS}
+
+
+
+
+
+         </div>
+         
+</div>
+          
+       
+              </td></tr></table>
+              
+                  
+                  </td>
+                                          
+                                    
+
+                      
+                  
+                                        
+
+<td class="last-box" id="nengiay" style="border-left:none;padding-top: 10px;width: 35%;">
+  
+                                       
+
+
+<table height="60px" valign="top"><tr><td valign="top"> 
+<!-- BEGIN avatar -->
+<span class="lastpost-avatar">{catrow.forumrow.avatar.LAST_POST_AVATAR}</span>
+<!-- END avatar -->
+</td><td>
+<span>
+<!-- BEGIN switch_topic_title -->
+
+  <span class="prefixx" onmouseover="show_tooltip(this,'{catrow.forumrow.LATEST_TOPIC_TITLE}','','black')" style="align:left;">  
+  <a href="{catrow.forumrow.U_LATEST_TOPIC}" title="{catrow.forumrow.LATEST_TOPIC_TITLE}">
+  {catrow.forumrow.LATEST_TOPIC_NAME}
+  </a>
+  </span>
+  
+<br />
+<!-- END switch_topic_title -->
+{catrow.forumrow.USER_LAST_POST}
+</span>
+ </td></tr></table>
+                  </td>
+
+                
+                
+                
+                
+                
+  
+                                        
+                
+            
+                
+                
+              </tr>      
+ </table>
+  <!-- END forumrow -->
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+  <!-- BEGIN tablefoot --><!-- END tablefoot -->
+    
+    
+
+<!-- END catrow -->
+
+
+
+
+ 
+                  <br/>
+
+<!-- BEGIN switch_on_index -->
+<div class="main-box clearfix" style="border: none;background:none;">
+  
+  <!-- BEGIN switch_delete_cookies -->
+
+  <span onmouseover="show_tooltip(this,'Xóa Dữ Liệu Cá Nhân','','black')" class="gietno" width="1%"><a href="{switch_on_index.switch_delete_cookies.U_DELETE_COOKIES}" >{switch_on_index.switch_delete_cookies.L_DELETE_COOKIES}</a></span>
+		
+	
+  <!-- END switch_delete_cookies -->
+  </div>
+
+<!-- END switch_on_index -->
+   </div>
