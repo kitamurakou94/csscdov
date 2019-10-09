@@ -1,0 +1,296 @@
+<style>
+.kkk1 img{
+  background: #fff;float: left;
+  width: 50px;height: 50px;
+  padding: 1px; border: 1px solid #DDD;margin: 0 5px;
+  box-shadow: 0px 0px 0px rgba(50, 50, 50, 0.75);transition:all .2s;-webkit-transition:all .2s;
+}
+.kkk1 img:hover, .kkk img:hover{
+transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg); box-shadow: 0px 0px 15px #000;
+}
+
+
+.blog_message1 {
+overflow: hidden;
+width: 52px;
+height: 52px;
+border: 3px double #CFCDCE;
+font-size: 0px;
+font-family: none;
+}
+.blog_message1 img {width: 60px;height: 60px;}.pun tbody.statused td.tcl {padding:0;}.codebox {display: none;}.postmain blockquote,blockquote{display: none;}
+.blog_message1 {}.blog_tintuc li:nth-of-type(1) .blog_message1 {margin: 0px;border: 1px solid #626263;}
+.blog_tintuc li:nth-of-type(1) .blog_message1 img {padding: 0px;}.blog_tintuc li {background-color: white;}  .blog_tintuc li:nth-of-type(3) 
+.blog_message1, .blog_tintuc li:nth-of-type(2) .blog_message1  {width: 190px;height: 60px;float: left;margin: 0px;border: 1px solid #B0B0B0;}
+.blog_tintuc li:nth-of-type(3) .blog_message1 img , .blog_tintuc li:nth-of-type(2) .blog_message1 img  {width: 190px;height: 60px;padding: 0;}
+
+#ser9999 img{
+height: 20px;
+width: 20px;
+}
+.avatar-list{
+height: 52px;
+width: 52px;
+overflow: hidden;
+}
+.avatar-list:hover{
+background-size:150px;
+}
+
+.avatar-list1{
+border: 0px solid #DDD;padding:2px 2px 2px 0;
+}
+.avatar-list111 {
+max-width: 400px;
+width: auto;
+    margin: -10px 0 0 -10px;
+position: absolute;
+z-index: 100;
+max-height: 400px;
+height: auto;
+box-shadow: 1px 1px 3px black;
+} 
+
+
+
+.pagination a{ 
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    min-width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #5a8f00;
+    background: #1a1a21;
+    border: 2px solid #5a8f00;
+  }
+
+.pagination a:hover{ 
+    background: #5a8f00;
+    color: #FFF;
+  }
+
+/* .page-sep, .prefix { display: none; } */
+
+
+a:link{/* color: #0032D0; */}
+
+.postdetails1{
+margin-left:20px;margin-right:5px;float:right;width:125px; text-align:right;
+}
+
+
+.blog_message1{
+transition: all .2s;
+-webkit-transition: all .2s;-webkit-transition: all .2s;
+}
+
+#doibg1:hover .blog_message1{
+transform:rotate(360deg);-ms-transform:rotate(360deg);-webkit-transform:rotate(360deg); 
+/* border-radius: 52px; */ border: 3px solid #F00;
+}
+
+</style>
+
+<!-- BEGIN topics_list_box --><!-- BEGIN row --><!-- BEGIN header_table --><!-- BEGIN multi_selection -->
+<script type="text/javascript">
+function check_uncheck_main_{topics_list_box.row.header_table.BOX_ID}() {
+   var all_checked = true;
+   for (i = 0; (i < document.{topics_list_box.FORMNAME}.elements.length) && all_checked; i++) {
+      if (document.{topics_list_box.FORMNAME}.elements[i].name == '{topics_list_box.FIELDNAME}[]{topics_list_box.row.header_table.BOX_ID}') {
+         all_checked = document.{topics_list_box.FORMNAME}.elements[i].checked;
+      }
+   }
+   document.{topics_list_box.FORMNAME}.all_mark_{topics_list_box.row.header_table.BOX_ID}.checked = all_checked;
+}
+function check_uncheck_all_{topics_list_box.row.header_table.BOX_ID}() {
+   for (i = 0; i < document.{topics_list_box.FORMNAME}.length; i++) {
+      if (document.{topics_list_box.FORMNAME}.elements[i].name == '{topics_list_box.FIELDNAME}[]{topics_list_box.row.header_table.BOX_ID}') {
+         document.{topics_list_box.FORMNAME}.elements[i].checked = document.{topics_list_box.FORMNAME}.all_mark_{topics_list_box.row.header_table.BOX_ID}.checked;
+      }
+   }
+}
+</script>
+
+
+
+<!-- END multi_selection -->
+
+  
+  
+  <div style="border-bottom: 1px solid #23232d;height:0px;width: 100%;margin: 0px auto;"></div>
+  
+
+<!-- END header_table --><!-- BEGIN header_row --><!-- END header_row --><!-- BEGIN topic -->
+
+
+ 
+  <table width="100%" border="0" >
+    <tr>
+   <script type="text/javascript">$(function(){$(".xname").hide();});</script>
+
+
+
+ <table style="width: 100%;border-bottom: 1px solid #23232d;margin:0px;" id="doibg1">
+
+<div style="border-bottom: 0px dashed #ababab; height:0px; width: 100%;margin-bottom: 0px;"></div>
+
+
+
+
+  <tr>
+    
+
+
+<td style="padding:0;">   
+
+<div class="avatar-list1" style="width:60px;"><div class="blog_message1" id="round11" style="background: #fff url(https://i.imgur.com/PYp78RC.jpg) no-repeat center; background-size: 100% 100%; margin-top:0px;padding:0px;" href="{topics_list_box.row.U_VIEW_TOPIC}" ><!-- BEGIN switch_description --><div class="avatar-list" style="background: url({topics_list_box.row.topic.switch_description.TOPIC_DESCRIPTION}) no-repeat 50% 50%, url(https://i.imgur.com/hbvbRnU.gif) no-repeat 50% 50%; background-size:100% 100%; background-color: #fff; padding: 0px;"></div><!-- END switch_description --></div></div>
+</td>
+
+
+
+
+ 
+
+<td style="width: 100%;"><div style="padding:0px; margin-top:0px;">
+         
+         
+         
+
+<table width="100%" style="margin: 0px 0 0 0; padding:0;"><tr style="margin: 0; padding:0;"><td class="prefixx" style="margin: 0; padding:0 10px 0 0;">
+
+
+<h3 style="padding-left:1px; font-weight:bold; font-size:14px;">
+  <span id="ser9999" style="margin-bottom: 0px;margin-right:5px;margin-top: 1px;float: left;"><img title="{topics_list_box.row.L_TOPIC_FOLDER_ALT}" src="{topics_list_box.row.TOPIC_FOLDER_IMG}" alt="{topics_list_box.row.L_TOPIC_FOLDER_ALT}" /></span>
+             <a href="{topics_list_box.row.U_VIEW_TOPIC}">
+
+<div style="margin-top: 0px;margin-left: 0px;">
+
+<span style="padding-left:5px; font-weight:bold; font-size:14px;color: #DC4A00;" class="koll">{topics_list_box.row.TOPIC_TITLE} 
+<span class="sotrangcon"> {topics_list_box.row.GOTO_PAGE_NEW} </span></span>
+
+<!-- BEGIN switch_description -->
+  <br /><font size="1px" style="margin-left: 30px;"></font>
+				<!-- END switch_description -->
+</div>
+
+
+</a>
+            </h3>
+
+   <div style="padding-left: 0px; margin: 8px 0 0 0;">
+     <div id="ser9999" style="margin-right:5px;float: left;">{topics_list_box.row.ICON}</div>
+                  <span class="gensmall"><!-- BEGIN nav_tree -->{topics_list_box.row.TOPIC_NAV_TREE} <!-- END nav_tree --></span>
+     <span class="postdetails" style="padding-left:0px; font-size: 11px; color: #686868">
+       Đăng bởi:   [<span style="font-size: 12px!important;">{topics_list_box.row.TOPIC_AUTHOR}</span>]
+     </span>    
+     <span class="postdetails" style="padding-left:0px;margin-left:20px; font-size: 11px; color: #686868">
+       Vào lúc:  [<b>{topics_list_box.row.FIRST_POST_TIME}</b>]
+     </span>    
+     <span class="postdetails" style="padding-left:0px;margin-left:20px; font-size: 11px; color: #686868">
+       Trả lời:  [<b>{topics_list_box.row.REPLIES}</b>]
+     </span>    
+     <span class="postdetails" style="padding-left:0px;margin-left:20px; font-size: 11px; color: #686868">
+       Xem:  [<b>{topics_list_box.row.VIEWS}<script language="JavaScript">
+function hideitem() {
+document.getElementById("thbao").style.display="none";
+}
+//<![CDATA[
+thbao = new Array(9);
+thbao[0]='0';
+thbao[1]='1';
+thbao[2]='2';
+thbao[3]='3';
+thbao[4]='4';
+thbao[5]='5';
+thbao[6]='6';
+thbao[7]='7';
+thbao[8]='8';
+thbao[9]='9';
+
+tbindex = Math.floor(Math.random() * thbao.length);
+//]]>
+</script>
+
+<span class="thbao-text"><script type="text/javascript">
+document.write(thbao[tbindex]);
+</script></span></b>]
+     </span>       
+</div>
+
+</td>
+
+
+
+
+
+
+
+
+<td style="margin: 0;padding:0;border-left: 1px solid #23232d;width:230px;" class="imglastlist"><table style="margin: 0; padding:0;"><tr style="margin: 0; padding:0;"><td style="margin: 0; padding:0;"><div class="kkk1">
+
+<!-- BEGIN avatar -->
+<span class="lastpost-avatar">{topics_list_box.row.topic.avatar.LAST_POST_AVATAR}</span>
+<!-- END avatar -->
+
+</div></td>
+
+  <td style="margin: 0; padding:0;">
+    <span class="postdetails" style="padding-left:0px;">
+      {topics_list_box.row.LAST_POST_AUTHOR} 
+      <span class="last-post-icon">
+      {topics_list_box.row.LAST_POST_IMG}
+      </span>
+    </span>
+<div class="postdetails" style="margin-top:8px; font-size: 11px; color: #686868">[<b>{topics_list_box.row.LAST_POST_TIME}</b>]</div>
+    </td>
+
+<td style="margin: 0; padding:0;">
+  <!-- BEGIN single_selection -->
+				<input type="radio" name="{topics_list_box.FIELDNAME}" value="{topics_list_box.row.FID}" {topics_list_box.row.L_SELECT} />&nbsp;
+				<!-- END single_selection -->
+  </td>
+ 
+  </tr></table></td>
+</tr></table>
+
+              
+            </div>
+
+
+
+
+
+
+            
+      </td>
+
+
+
+      </tr>
+    </table>
+    </tr>
+
+   
+ 
+         </table>
+
+<table> <tr>  
+            <!-- BEGIN multi_selection -->
+      <p align="center" valign="middle"><span class="postdetails"><input onclick="javascript:check_uncheck_main_{topics_list_box.row.BOX_ID}();" type="checkbox" name="{topics_list_box.FIELDNAME}[]{topics_list_box.row.BOX_ID}" value="{topics_list_box.row.FID}" {topics_list_box.row.L_SELECT} /></span></p>
+   <!-- END multi_selection -->
+   
+   <!-- END topic --><!-- BEGIN no_topics -->
+   
+      <p  colspan="{topics_list_box.row.COLSPAN}" align="center" valign="middle" height="30"><span class="gen">{topics_list_box.row.L_NO_TOPICS}</span></p>
+   
+   <!-- END no_topics --><!-- BEGIN bottom -->
+    
+      <td class="catBottom" colspan="{topics_list_box.row.COLSPAN}" valign="middle"></td>
+              </tr>
+  </table>
+
+
+<!-- END bottom --><!-- END row --><!-- END topics_list_box -->
