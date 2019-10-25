@@ -1,0 +1,125 @@
+<style>
+  /* Mod new và topic blog */
+.singleCol #post-container{background:url("https://i.servimg.com/u/f21/17/57/29/64/timeli11.jpg") repeat-y 567px top}
+.pin-container{float:left;}
+  .singleCol {
+    display: inline-block;
+}
+.singleCol #post-container .pin-container {
+    width: 226px;
+    margin: 0 0 12px 13px;
+    background: #1a1a21;
+    border: 1px solid #626273;
+    border-radius: 5px;
+}
+.singleCol #post-container .pin-container:first-of-type{margin-top:0}
+.singleCol #post-container .pin-container .midCol{margin-right:0px;width: 100%;}
+.pin{font-size:11px}
+.singleCol .upperInfo h3{display:inline;font-size:100%;font-weight:normal;font-family:inherit;margin:0}
+.pin-container .upperInfo h3 a{color:#2b2b2b;font-size:22px;font-weight:bold}
+.singleCol #post-container .pin .pin_pic_img_a{height:142px;display:block;overflow:hidden;font-size:0}
+.singleCol #post-container .pin .pin_pic_img_a img{width:220px;height:142px;margin-bottom:0}
+.pin-container .pinleft{
+color: #aaa;
+    padding: 5px;
+    margin-top: 5px;
+    height: auto;
+    font-size: 11px;
+    background: #1a1a21;
+    border-top: 1px solid #626273;
+    border-radius: 0px 0px 5px 5px;
+  }
+.pin-container .pinleft a{color:#aaa;font-size:11px}
+.pin-container .pinright{float:right}
+.pin-container .bottomInfo{width:450px;padding-top:3px;overflow:hidden}
+.pin-container .bottomInfo .block{margin:1px 3px 0 0;padding:3px}
+.fl-l{float:left;overflow:hidden}
+.pin-container .bottomInfo .block{margin:1px 3px 0 0;padding:3px}
+.item {
+    display: none;
+}
+.borr {margin: 0px -5px;}
+.pin_pic_img_a br, .pin_pic_img_a > strong, .pin_pic_img_a font, .pin_pic_img_a span{
+    display: none;
+}
+.pin_pic_img_a {
+    background-image: url('https://i.imgur.com/rhebXoh.png');
+}
+  
+  .avatar-list1{
+    border: 0px solid #DDD;
+    padding: 2px;
+    width: 220px;
+    height: 100px;
+    padding: 5px 5px 0px 5px;
+}
+.avatar-list111 {
+max-width: 400px;
+width: auto;
+    margin: -10px 0 0 -10px;
+position: absolute;
+z-index: 100;
+max-height: 400px;
+height: auto;
+box-shadow: 1px 1px 3px black;
+} 
+  .avatar-list{
+height: 52px;
+width: 52px;
+overflow: hidden;
+}
+.avatar-list:hover{
+background-size:150px;
+}
+
+</style>
+
+<br />
+
+<!-- BEGIN topics_blog_box -->
+<div class="singleCol">
+ <div id="post-container">
+          <div class="borr">
+  <!-- BEGIN row -->
+            
+<!-- BEGIN topic -->
+ <div class="masonry-brick pin-container">
+   
+   <a href="{topics_blog_box.row.U_VIEW_TOPIC}">
+     
+ <div class="midCol">
+ <div class="pin">
+   
+   
+   <div class="avatar-list1">
+     <div class="blog_message1" id="round11" style="background: #fff url(https://i.imgur.com/PYp78RC.jpg) no-repeat center; background-size: 100% 100%; margin-top:0px;padding:0px;width: 216px;height: 100px;" href="{topics_list_box.row.U_VIEW_TOPIC}" ><!-- BEGIN switch_description --><div class="avatar-list" style="background: url({topics_blog_box.row.topic.switch_description.TOPIC_DESCRIPTION}) no-repeat 50% 50%, url(https://i.imgur.com/hbvbRnU.gif) no-repeat 50% 50%; background-size:100% 100%; background-color: #fff; padding: 0px;width: 216px;height: 100px;"></div><!-- END switch_description --></div></div>
+
+   
+   
+ <a href="{topics_blog_box.row.U_VIEW_TOPIC}" style="font: bold 14px/20px Arial;margin-top: 5px;overflow: hidden;height: 38px;-webkit-line-clamp: 2;text-overflow: ellipsis;white-space: normal;word-wrap: break-word;display: -webkit-box;-webkit-box-orient: vertical;padding: 0 5px;">{topics_blog_box.row.TOPIC_TITLE}</a>
+ <div class="pinleft">
+   <a><b>Lượt xem:</b> {topics_blog_box.row.VIEWS}</a>
+   <div><b>Lượt bình luận:</b> {topics_blog_box.row.REPLIES}</div>
+ </div>
+<div class="item">
+ <a href="{topics_blog_box.row.U_VIEW_TOPIC}">
+
+ <p>
+{topics_blog_box.row.TOPIC_TITLE}
+ </p>
+ </a>
+</div>
+   
+   
+ </div>
+ </div>
+   </a>
+ </div>
+<!-- END topic -->
+<!-- END row -->
+          </div>
+ <div id="listEnd">
+ </div>
+ </div>
+</div>
+ <!-- END topics_blog_box -->
